@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guessing Game</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+.guessField {
+  width: 50px;
+}
+
+.subt {
+  margin-left: 10px;
+}
+
+.resultParas {
+  margin-top: 20px;
+}
+
+.guesses,
+.lastResult,
+.loworHi {
+  font-size: 20px;
+}
+
+.button {
+  text-align: center;
+}
+
+#newGame {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>Guessing Game</h1>
+  
+  <label for="guessField">Enter a guess: </label>
+  <input type="text" id="guessField" class="guessField">
+  <input type="submit" value="Submit Guess" id="subt" class="subt">
+  
+  <div class="resultParas"></div>
+  
+  <p class="guesses"></p>
+  <p class="lastResult"></p>
+  <p class="loworHi"></p>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
