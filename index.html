@@ -1,30 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Clock</title>
+    <title>Button Click Color Change</title>
     <style>
-        body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        .body {
     height: 100vh;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
 }
 
-#clock {
-    font-size: 2em;
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#grey {
+    background-color: grey;
+    color: white;
+}
+
+#white {
+    background-color: white;
+    color: black;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#yellow {
+    background-color: yellow;
+    color: black;
+}
+
+#purple {
+    background-color: purple;
+    color: white;
 }
 
     </style>
 </head>
+<body class="body">
+    <button id="grey" class="button">Grey</button>
+    <button id="white" class="button">White</button>
+    <button id="blue" class="button">Blue</button>
+    <button id="yellow" class="button">Yellow</button>
+    <button id="purple" class="button">Purple</button>
 
-<body>
-    <div id="clock"></div>
     <script src="script.js"></script>
 </body>
-
 </html>
