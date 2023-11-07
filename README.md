@@ -12,7 +12,7 @@ This is a simple console-based number guessing game implemented in JavaScript. T
 
 ## Getting Started
 
-1. Make sure you have Python installed on your system. If not, you can download it from [here](https://www.python.org/downloads/).
+1. Make sure you have Python installed on your system. If not, you can download it from [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 2. Clone this repository to your local machine using the following command:
 
