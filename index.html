@@ -3,58 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Click Color Change</title>
+    <title>BMI Calculator</title>
     <style>
-        .body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+        body {
     font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
 }
 
-.button {
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100px;
+}
+
+button {
     padding: 10px 20px;
-    margin: 5px;
     font-size: 16px;
-    cursor: pointer;
 }
 
-#grey {
-    background-color: grey;
-    color: white;
+#results {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+#result-container {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-#white {
-    background-color: white;
-    color: black;
+#bmi-label {
+    margin-right: 10px;
 }
 
-#blue {
-    background-color: blue;
-    color: white;
-}
-
-#yellow {
-    background-color: yellow;
-    color: black;
-}
-
-#purple {
-    background-color: purple;
-    color: white;
+#bmi-result {
+    color: green;
 }
 
     </style>
 </head>
-<body class="body">
-    <button id="grey" class="button">Grey</button>
-    <button id="white" class="button">White</button>
-    <button id="blue" class="button">Blue</button>
-    <button id="yellow" class="button">Yellow</button>
-    <button id="purple" class="button">Purple</button>
+<body>
+    <form>
+        <label for="height">Height (cm):</label>
+        <input type="text" id="height" required><br><br>
+        
+        <label for="weight">Weight (kg):</label>
+        <input type="text" id="weight" required><br><br>
+        
+        <button type="submit">Calculate BMI</button>
 
+        <div id="results"></div>
+    </form>
+    
+    
+    
+    
     <script src="script.js"></script>
 </body>
 </html>
