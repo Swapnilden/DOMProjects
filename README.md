@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a simple console-based number guessing game implemented in Python. The game randomly selects a number between a specified range and prompts the user to guess it. The user continues guessing until they correctly identify the chosen number.
+This is a simple console-based number guessing game implemented in JavaScript. The game randomly selects a number between a specified range and prompts the user to guess it. The user continues guessing until they correctly identify the chosen number.
 
 ## Features
 
@@ -17,5 +17,5 @@ This is a simple console-based number guessing game implemented in Python. The g
 2. Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/guess-a-number.git
+git clone https://github.com/Swapnilden/DOMProjects.git
 
